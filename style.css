@@ -29,14 +29,17 @@ body {
 }
 
 .search-bar {
-  /* outline: #467302; */
+  border: 1.5px solid #467302;
+  border-radius: 6px;
+  outline: #467302;
   width: 400px;
   height: 30px;
 }
 
 .search-bar:focus {
-  border: 2px solid #467302;
-  border-radius: 4px;
+    border: 1.5px solid #467302;
+    border-color: #3b6102;
+    border-radius: 6px;
 }
 
 .nav-list {
@@ -65,4 +68,8 @@ body {
 .sign-up-btn:hover {
   background: #3b6102;
   transition: all 0.2s ease-in-out;
+}
+
+.header {
+    margin-top: 100px;
 }
