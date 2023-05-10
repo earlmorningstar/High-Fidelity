@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+}
+
+.sub-body {
+  margin: 0 120px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.bds-logo {
+  background: #467302;
+  border: 3px solid #f8b800;
+  color: #fbfdfb;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.search-bar {
+  /* outline: #467302; */
+  width: 400px;
+  height: 30px;
+}
+
+.search-bar:focus {
+  border: 2px solid #467302;
+  border-radius: 4px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 24px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-list-hover:hover {
+  color: #9fc700;
+  text-decoration: underline;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: #fbfdfb;
+  background: #467302;
+  font-size: 12px;
+}
+
+.sign-up-btn:hover {
+  background: #3b6102;
+  transition: all 0.2s ease-in-out;
+}
