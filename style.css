@@ -237,6 +237,7 @@ body {
 .customer-remarks {
   display: flex;
   gap: 20px;
+  /* padding: 60px 120px; */
   margin: 20px;
 }
 
